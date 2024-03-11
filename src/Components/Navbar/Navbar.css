@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.iconic{
+    fill:#0a0ef8; 
+    height:50px ; 
+    width:50px ; 
+}
+
 .hero-section {
     height: 85vh;
     padding-top: 17vh;
