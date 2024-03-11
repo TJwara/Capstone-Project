@@ -1,0 +1,219 @@
+body{
+    background-color: #c0f3ff;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.bgimg {
+  background-image: url("health.png");
+  position: relative;
+  background-attachment: scroll;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+header {
+  height: 15vh;
+  width: 100%;
+}
+
+header .navigationBar .navColOne .logo {
+  width: auto;
+  height: 15vh;
+  padding-top: 3vh;
+  padding-left: 10%;
+
+
+}
+
+header .navigationBar .navColOne .logo .doctor {
+  width: auto;
+  height: 30px;
+}
+
+header .navigationBar .navColOne {
+  float: left;
+  z-index: 99;
+  left: 0;
+  width: 25%;
+  height: 15vh;
+  overflow: hidden;
+  background-color: #c0f3ff;
+
+}
+
+.navigationBar .navColTwo {
+  float: left;
+  width: 75%;
+  height: 15vh;
+  background-color: #c0f3ff;
+}
+
+.navigationBar {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.navigationBarLinks {
+
+  float: left;
+  width: 100%;
+  padding: 20px;
+  height: 15vh;
+
+  overflow: hidden;
+
+
+}
+
+.navigationBar a {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 2vh;
+  padding: 15px 15px;
+  float: right;
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+.navigationBar .login {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 2vh;
+  padding: 15px 35px;
+  float: right;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 30px;
+}
+
+.navigationBar .signup {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 2vh;
+  padding: 15px 35px;
+  float: right;
+  color: #000000;
+  text-decoration: none;
+  background-color: #68e2fd;
+  border-radius: 30px;
+}
+
+.navigationBar a:hover {
+
+  font-size: 13px;
+  font-weight: 300;
+  color: #000000;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 2px solid #000000;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 10%;
+    overflow: hidden;
+  }
+  .password-visibility{
+    position: relative;
+    top: -39px;
+    left: 92%;
+    cursor: pointer;
+    font-size:17px;
+  }
+  
+  .signup-grid {
+    display: grid;
+   width: 100%;
+  }
+  
+  .signup-text {
+    margin-top: 30px;
+    grid-column: 1 / 4;
+    text-align: center;
+  }
+  .signup-text1 {
+    grid-column: 2 / 3;
+    text-align: right;
+  }
+  .signup-text1  span{
+    color: #0515fc;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .signup-form {
+    grid-column: 2 / 4;  
+    margin-left:10%;
+  }
+  
+  .signup {
+    flex: 1;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #3c79a7;
+    letter-spacing:.1em;
+  }
+  
+  .signup-role {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn-group {
+    margin-top: .0001px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    width:60%;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
